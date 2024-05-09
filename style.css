@@ -308,31 +308,44 @@ footer h5 {
   .header {
     line-height: 3rem;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    width: auto;
+
   }
 
   .header a {
     border: none;
     font-size: 11px;
   }
+
+  .header .navbar {
+    margin: 0;
+  }
   .main {
-    line-height: 80px;
+    line-height: 90px;
   }
   .main h1 {
     font-size: 40px;
     padding-top: 50px;
     margin: 0;
+    line-height: 60px;
+  }
+  
+  .main h2 {
+    line-height: 70px;
   }
 
   .main p {
     font-size: 20px;
     margin: 0;
     padding: 0;
+    line-height: 30px;
   }
 
   i {
-    font-size: 40px;
-    margin-top: 10px;
+    font-size: 50px;
+    margin-top: 50px;
+  
   }
 
   .main button {
@@ -346,18 +359,36 @@ footer h5 {
   }
 
   .about img {
-    display: none;
+    display: none !important;
   }
 
   .about_container h1 {
     font-size: 50px;
+    padding: 0 0 20px 0;
   }
 
   .about_container p {
-    font-size: 20px;
-    text-align: left;
+    font-size: 19px;
+    text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 0 0 30px 0;
   }
+  .image img {
+    display: none;
+  }
+  .image {
+    display: none;
+  }
+
+  .career h2 {
+    font-size: 50px;
+    padding: 30px;
+  }
+
+  .career_container {
+    display: flex;
+    flex-direction: column;
+  }
+
   
 }
