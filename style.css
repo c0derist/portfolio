@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@keyframes colors {
+  0% {
+    border-radius: 50%;
+    box-shadow: 0px 0px 80px 10px white;
+    
+  }
+
+  50% {
+    border-radius: 50%;
+    box-shadow: 0px 0px 60px 10px #19A7CE;
+  }
+
+  100% {
+    border-radius: 50%;
+    box-shadow: 0px 0px 80px 10px white;
+  }
+
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family:'Lato';
+  ;
+}
+
+.header {
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 9999;
+}
+
+.header a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.logo {
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.3s ease;
+  
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.logo span {
+  color: #19A7CE;
+}
+
+
+.header .navbar {
+  margin-right: 50px;
+  font-size: larger;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.navbar a:hover  {
+  border: 1px solid #19A7CE;
+  border-radius: 25px;
+  color: #19A7CE;
+  box-shadow: 0px 0px 150px 1px white;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+  background-color: black;
+  margin-top: 30px;
+}
+
+.main .main_container {
+  padding-left: 15%;
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+
+i {
+  font-size: 50px;
+}
+
+button {
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+button:hover {
+  transition: 0.4s ease;
+  box-shadow: 0px 0px 50px 1px white;
+  background-color: black;
+  color: white;
+}
+
+.main .main_container a {
+  color: #19A7CE;
+}
+
+i:hover {
+  transition: 0.4s ease;
+  box-shadow: 0px 0px 50px 1px white;
+  
+}
+
+.main span {
+  color: #19A7CE;
+}
+
+.main h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.main h2 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.main p {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-right: 200px;
+}
+
+.image img{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  transition: 0.1s ease;
+  animation: colors 5s infinite;
+  margin: 15% 0;
+}
+
+.about {
+  width: 100%;
+  margin: 50px auto 50px auto;
+  display: flex;
+  justify-content: center;
+  
+ 
+}
+
+.about_container h1 {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.about_container p {
+ 
+  width: 100%;
+  text-align: left;
+  font-style: italic;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  padding-left: 50px;
+  font-size: 30px;
+}
+
+.about_image img {
+  float: left;
+  width: 50%;
+  border: 1px solid black;
+}
+
+
+
+.career {
+  background-color: #146C94;
+  padding: 0;
+  margin: 0;
+}
+
+.career h2 {
+  font-size: 80px;
+  text-align: center;
+  padding: 20px 20px;
+  color: white;
+}
+
+.career_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  
+}
+.career_container li {
+  list-style: none;
+  border: 1px solid white;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.career_container h1 {
+ font-size: 40px;
+ padding: 20px 20px;
+ color: white;
+}
+
+.career h2 {
+  font-size: 100px;
+  padding: 100px auto;
+  color: white;
+  text-align: center;
+ }
+
+.career_container p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  
+}
+
+.lets_connect {
+  background-image: url(assets/30755.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.contact_container {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.contact_title h2 {
+  font-weight: bolder;
+  font-size: 80px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.contact_input {
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  border-radius: 50px;
+  background-color: white;
+  border: 5px solid #146C94;
+}
+
+.contact_submit {
+ width: 100px;
+ display: flex;
+ align-items: center;
+ padding: 15px 20px;
+ font-size: 20px;
+ cursor: pointer;
+}
+
+.contact_left textarea {
+  height: 140px;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer h5 {
+  padding: 20px 20px;
+}
+
