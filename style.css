@@ -309,8 +309,8 @@ footer h5 {
     line-height: 3rem;
     display: flex;
     justify-content: space-between;
-    width: auto;
-
+    width: 100%;
+    padding-bottom: 5px;
   }
 
   .header a {
@@ -323,6 +323,7 @@ footer h5 {
   }
   .main {
     line-height: 90px;
+    
   }
   .main h1 {
     font-size: 40px;
@@ -390,5 +391,46 @@ footer h5 {
     flex-direction: column;
   }
 
+  .career_container h1 {
+    font-size: 30px;
+  }
+
+  .career_container p {
+    font-size: 15px;
+  }
+
+  .career_container li {
+    padding: 20px;
+  }
+
+  .lets_connect {
+    padding-top: 50px;
+    margin: 0;
+    display: flex;
+    
+  }
+  .lets_connect h2 {
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+
+  .contact_left {
+    padding-left: 5px;
+  }
+
+  .contact_left input{
+    width: 300px;
+    
+  }
+
+  .contact_left textarea{
+    width: 330px;
+  }
   
+  .contact_left .contact_submit {
+    margin-bottom: 100px
+  }
 }
